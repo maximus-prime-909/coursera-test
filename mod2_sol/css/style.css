@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding: 15px;
+    margin: 15px;
+    
+}
+.row{
+    border: 1px solid; 
+    border-color: black;
+    width: 100%;
+    padding: ;
+    background-image: url(https://files.123freevectors.com/wp-content/original/113618-blue-diagonal-stripes-background-vector.jpg);
+    background-size: 1510px 200px;
+    color: #2260ff;
+}
+h2{
+    text-align: end;
+    background-color: rgba(150, 0, 20, 0.4);
+}
+p{
+    
+}
+@media (min-width: 992px){
+.lg-4{
+    
+    float: left;
+    width: 33.33%;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+.md-6{
+    float: left;
+    width: 50%;
+}
+}
+@media(max-width:767px){
+.sm-12{
+    float: left;
+    width: 100%;
+}
+}
