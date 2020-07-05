@@ -15,7 +15,9 @@ p{
     border: 1px solid black;
     border-radius: 5px;
     background: rgba(236, 34, 34, 0.377);
-
+    
+    overflow: auto;
+    height: 150px;
 }
 .row{
     width: 100%;
@@ -43,7 +45,7 @@ h2{
 }
 
 .lg4, .md-6,.md-12, .sm-12{
-    float: left; 
+    float: left;
 }
 /*Desktop*/
 @media (min-width: 992px){
